@@ -13,11 +13,11 @@ import org.apache.commons.cli.Options;
  * @author s0rrow
  *
  */
-public class WebPageCrawler {
+public class MainCrawler {
 	String url;
 	String outputPath;
 	public static void main(String[] args) {
-		WebPageCrawler creeper = new WebPageCrawler();
+		MainCrawler creeper = new MainCrawler();
 		creeper.run(args);
 	}
 	
