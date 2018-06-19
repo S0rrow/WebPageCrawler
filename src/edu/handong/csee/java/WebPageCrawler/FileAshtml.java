@@ -16,7 +16,7 @@ public class FileAshtml {
 	}
 	public void doWrite(BufferedReader br) {
 		try {
-		FileWriter writer = new FileWriter(dir);
+		FileWriter writer = new FileWriter(dir+"\\index.html");
 		while((aLine = br.readLine())!= null) {
 			writer.append(aLine);
 		}
