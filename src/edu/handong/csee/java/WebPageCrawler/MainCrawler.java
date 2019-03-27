@@ -16,10 +16,6 @@ import org.apache.commons.cli.Options;
 public class MainCrawler {
 	String url;
 	String outputPath;
-	public static void main(String[] args) {
-		MainCrawler creeper = new MainCrawler();
-		creeper.run(args);
-	}
 	
 	private void run(String[] args) {
 		
